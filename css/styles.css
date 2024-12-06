@@ -5,12 +5,32 @@ body {
     background-color: #fff;
 }
 
+h1,h2,h3,h4,h5,h6,p {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
 ul,ol {
     list-style-type: none;
+    margin-top: 0;
+        margin-bottom: 0;
+        padding-left: 0;
 }
 
 a {
     text-decoration: none;
+}
+
+img {
+    display: block;
+}
+
+.container {
+    width: 1158px;
+        padding-left: 15px;
+        padding-right: 15px;
+        margin-left: auto;
+        margin-right: auto;
 }
 
 .logo {
@@ -31,16 +51,40 @@ a {
     color: #f4f4fd;
 }
 
+.page-header .container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 76px;
+}
+
+.nav-list {
+    display: flex;
+    gap: 40px;
+}
+
 .nav-link {
     font-weight: 500;
         font-size: 16px;
         line-height: 1.5;
         letter-spacing: 0.02em;
         color: #2e2f42;
+        padding-bottom: 24px;
+        padding-top: 24px;
 }
 
 .contacts {
     font-style: normal;
+}
+
+.contacts-list {
+    display: flex;
+        gap: 40px;
 }
 
 .contacts-link {
@@ -48,6 +92,10 @@ a {
         line-height: 1.5;
         letter-spacing: 0.02em;
         color: #434455;
+        display: block;
+        padding-bottom: 24px;
+            padding-top: 24px;
+
 }
 
 .contacts-link:hover,
@@ -61,6 +109,8 @@ a {
 background-color: #2e2f42;
 }
 
+
+
 .solutions {
         font-size: 56px;
         line-height: 1.07;
@@ -68,6 +118,9 @@ background-color: #2e2f42;
         text-align: center;
         color: #fff;
         background-color: #2e2f42;
+        margin-top: 188px;
+        margin-left: 472px;
+        margin-right: 472px;
 }
 
 .btn-solutions {
@@ -76,6 +129,7 @@ background-color: #2e2f42;
         font-size: 16px;
         line-height: 1.5;
         letter-spacing: 0.04em;
+        border-radius: 4px;
         color: #fff;
         background-color: #4d5ae5;
         cursor: pointer;
@@ -86,12 +140,37 @@ background-color: #2e2f42;
 background-color: #404bbf;
 }
 
-.advantages-item {
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+
+.advantages-list {
+    display: flex;
+    padding-top: 120px;
+    padding-bottom: 120px;
+    gap: 24px;
+}
+.advantages-list-item {
+    width: 264px;
+}
+
+.advantages-title {
     font-weight: 500;
         font-size: 20px;
         line-height: 1.2;
         letter-spacing: 0.02em;
         color: #2e2f42;
+        margin-bottom: 8px;
 }
 
 .advantages-text {
@@ -106,7 +185,15 @@ background-color: #404bbf;
 }
 
 .team-list {
-    background-color: #FFFFFF
+    display: flex;
+    padding-top: 72px;
+    padding-bottom: 120px;
+    gap: 24px;
+}
+
+.team-list-item {
+    background-color: #FFFFFF;
+    width: 264px;
 }
 
 .team,
@@ -118,23 +205,37 @@ background-color: #404bbf;
         letter-spacing: 0.02em;
         text-align: center;
         color: #2e2f42;
+        padding-top: 120px;
 }
 
-.team-item,
-.portfolio-item {
+.team-title,
+.portfolio-title {
     font-weight: 500;
         font-size: 20px;
         line-height: 1.2;
         letter-spacing: 0.02em;
         color: #2e2f42;
+        margin-top: 32px;
+        margin-bottom: 8px;
+        display: flex;
+        
 }
 
-.team-item {
-text-align: center;
+.team-title {
+justify-content: center;
 }
 
-.portfolio-item {
+.portfolio-title {
+    padding-left: 16px;
     text-align: left;
+}
+
+.portfolio-list {
+    display: flex;
+        flex-wrap: wrap;
+        padding-top: 72px;
+        padding-bottom: ;
+        gap: 24px;
 }
 
 .team-text,
@@ -143,18 +244,34 @@ text-align: center;
         line-height: 1.5;
         letter-spacing: 0.02em;
         color: #434455;
+        padding-bottom: 32px;
 }
 
 .team-text {
 text-align: center;
 }
 
+.portfolio-list-item {
+    width: 360px;
+    border: 1px solid #E7E9FC;
+    overflow: hidden;
+}
+
 .portfolio-text {
     text-align: left;
+    padding-left: 16px;
 }
 
 .page-footer {
     background-color: #2e2f42;
+    padding-top: 100px;
+        padding-right: 1020px;
+        padding-bottom: 100px;
+        padding-left: 156px;
+}
+
+.page-footer .container {
+    width: 294px;
 }
 
 .footer-text {
