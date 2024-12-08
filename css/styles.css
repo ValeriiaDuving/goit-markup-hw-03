@@ -132,7 +132,7 @@ img {
     color: #fff;
     background-color: #2e2f42;
     margin-bottom: 48px;
-   width: 496px;
+   max-width: 496px;
     margin-right: 472px;
     margin-left: 472px;
 }
