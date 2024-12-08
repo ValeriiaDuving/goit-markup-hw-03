@@ -114,6 +114,7 @@ img {
     background-color: #2e2f42;
 }
 
+
 .solutions {
     font-size: 56px;
     line-height: 1.07;
@@ -121,9 +122,11 @@ img {
     text-align: center;
     color: #fff;
     background-color: #2e2f42;
-    margin-top: 188px;
-    margin-left: 472px;
+    padding-top: 188px;
+    margin-bottom: 48px;
+    width: 496px;
     margin-right: 472px;
+    margin-left: 472px;
 }
 
 .btn-solutions {
@@ -136,6 +139,11 @@ img {
     color: #fff;
     background-color: #4d5ae5;
     cursor: pointer;
+    width: 237px;
+    padding: 16px 32px;
+    margin-bottom: 188px;
+    margin-right: 636px;
+    margin-left: 636px;
 }
 
 .btn-solutions:hover,
