@@ -74,7 +74,6 @@ img {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    gap: 76px;
 }
 
 .nav-list {
@@ -133,8 +132,8 @@ img {
     background-color: #2e2f42;
     margin-bottom: 48px;
    max-width: 496px;
-    margin-right: 472px;
-    margin-left: 472px;
+    margin-right: auto;
+    margin-left: auto;
 }
 
 .btn-solutions {
@@ -151,8 +150,8 @@ img {
     min-width: 169px;
     height: 56px;
     border: none;
-    margin-right: 636px;
-    margin-left: 636px;
+    margin-right: auto;
+    margin-left: auto;
 }
 
 .btn-solutions:hover,
@@ -179,8 +178,6 @@ img {
 
 .advantages-list {
     display: flex;
-    padding-top: 120px;
-    padding-bottom: 120px;
     gap: 24px;
 }
 
@@ -220,11 +217,11 @@ img {
     border-radius: 0px 0px 4px 4px;
 }
 
-.team-list-item .container {
+.team-container {
     padding: 32px 0;
 }
 
-.portfolio-list-item .container {
+.portfolio-container {
     padding: 32px 16px;
     border: 1px solid #e7e9fc;
     border-top: none;
